@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vivek Arora - software engineer building reliable systems for consequential environments." />
+    <title>Vivek Arora — Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="nav wrap">
+      <a class="wordmark" href="#top" aria-label="Vivek Arora home">VA<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Selected work</a>
+        <a href="#about">About</a>
+        <a href="mailto:vivekarora2000@gmail.com" class="nav-contact">Get in touch <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <p class="eyebrow">Vivek Arora / Software Engineer at Palantir</p>
+        <h1>I build systems that<br /><em>have to work.</em></h1>
+        <div class="hero-bottom">
+          <p class="lede">Infrastructure and product engineer with 4 years of experience shipping software in high-consequence, constrained environments.</p>
+          <div class="hero-links">
+            <a href="#work">Explore selected work <span>↓</span></a>
+            <a href="mailto:vivekarora2000@gmail.com">Email me <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="principle wrap" aria-label="Engineering philosophy">
+        <p class="eyebrow">How I work</p>
+        <p class="principle-copy">I like hard systems problems at the boundary of <span>reliability, security,</span> and real-world users. The best work pairs deep technical investigation with the judgment to make a meaningful difference for the people depending on it.</p>
+      </section>
+
+      <section id="work" class="work wrap">
+        <div class="section-heading"><p class="eyebrow">01 / Selected work</p></div>
+
+        <article class="project featured">
+          <div class="project-number">01</div>
+          <div class="project-copy">
+            <p class="project-kicker">Database infrastructure · 2025</p>
+            <h2>Autoscaling Elasticsearch for unpredictable demand.</h2>
+            <p class="project-summary">Built a Kubernetes-native autoscaler that uses Elasticsearch and cluster telemetry to make workload-aware decisions across node sets — reducing costly over-provisioning while eliminating manual capacity operations during load spikes.</p>
+            <ul class="tags"><li>Kubernetes</li><li>Elasticsearch</li><li>Custom CRDs</li><li>Persistent state</li></ul>
+          </div>
+          <aside class="project-outcome"><span>Outcome</span><strong>Dynamic capacity</strong><p>Designed beyond native ES autoscaling for high-consequence production fleets.</p></aside>
+        </article>
+
+        <article class="project">
+          <div class="project-number">02</div>
+          <div class="project-copy">
+            <p class="project-kicker">Capacity efficiency · Database infrastructure</p>
+            <h2>Making dynamic database workloads legible and efficient.</h2>
+            <p class="project-summary">Created a CPU rectifier for Elasticsearch Helm deployments that correctly evaluates dynamic master and data node sets. The design established a pattern later used to accelerate Postgres rectification.</p>
+            <ul class="tags"><li>Helm</li><li>Grafana</li><li>Capacity planning</li></ul>
+          </div>
+          <aside class="project-outcome"><span>Outcome</span><strong>Smarter capacity placement</strong><p>Improved bin packing across dynamic database workloads.</p></aside>
+        </article>
+
+        <article class="project">
+          <div class="project-number">03</div>
+          <div class="project-copy">
+            <p class="project-kicker">Security & auditability · IRS</p>
+            <h2>Auditing sensitive data access in real time.</h2>
+            <p class="project-summary">Designed and shipped a real-time IRS auditing service that compares user-scoped query results with authorized baselines as searches execute, preserving an auditable record of potentially unauthorized taxpayer-data access.</p>
+            <ul class="tags"><li>Event-driven systems</li><li>Data security</li><li>Real-time queries</li></ul>
+          </div>
+          <aside class="project-outcome"><span>Why it mattered</span><strong>Expanded the engagement</strong><p>Turned a hard regulatory requirement into new scope for the partnership.</p></aside>
+        </article>
+
+        <article class="project">
+          <div class="project-number">04</div>
+          <div class="project-copy">
+            <p class="project-kicker">Production reliability · FDA</p>
+            <h2>Building a traffic guardrail for constrained infrastructure.</h2>
+            <p class="project-summary">Proactively built a custom Squid traffic-control service for a constrained FDA deployment. It detects abnormal connection pressure during high-change periods and temporarily sheds nonessential traffic, protecting shared infrastructure and preserving service availability.</p>
+            <ul class="tags"><li>Networking</li><li>Squid</li><li>Resilience engineering</li><li>On-prem</li></ul>
+          </div>
+          <aside class="project-outcome"><span>Outcome</span><strong>Graceful degradation</strong><p>Designed a protection mechanism for infrastructure operating under hard constraints.</p></aside>
+        </article>
+
+        <article class="project">
+          <div class="project-number">05</div>
+          <div class="project-copy">
+            <p class="project-kicker">Observability · Elasticsearch fleet</p>
+            <h2>Useful signals without a cardinality explosion.</h2>
+            <p class="project-summary">Developed a bounded-cardinality Top-N metrics system with exponentially decaying sampling to surface the indices that matter. Extended it from latency into volume, separating slow, hot, and overloaded workloads.</p>
+            <ul class="tags"><li>Java</li><li>Observability</li><li>Distributed systems</li></ul>
+          </div>
+          <aside class="project-outcome"><span>Design constraint</span><strong>Bounded metrics</strong><p>Detailed visibility where it counts, without degrading fleet-wide monitoring.</p></aside>
+        </article>
+
+        <article class="project">
+          <div class="project-number">06</div>
+          <div class="project-copy">
+            <p class="project-kicker">Product delivery · Regulated data platform</p>
+            <h2>Shipping with users, not just for them.</h2>
+            <p class="project-summary">Worked directly with domain-expert users on a regulated data platform, learning their review workflows and iterating in short feedback loops. Turned an initially skeptical user group into active partners by pairing fast execution with a deep understanding of their day-to-day work.</p>
+            <ul class="tags"><li>Customer discovery</li><li>Product delivery</li><li>Regulated workflows</li><li>Data platforms</li></ul>
+          </div>
+          <aside class="project-outcome"><span>What changed</span><strong>Trusted partnership</strong><p>Moved the relationship from a software rollout to collaborative problem-solving.</p></aside>
+        </article>
+      </section>
+
+      <section class="proof wrap">
+        <p class="eyebrow">04 / In the field</p>
+        <div class="proof-grid">
+          <p>At Palantir, I’ve deployed, debugged, and modernized software where failure is not abstract: regulated environments, sensitive data, and demanding production infrastructure.</p>
+          <div class="proof-list"><div><span>FDA · 2023</span><p>Received the FDA Information Technology Excellence Award for collaborative work migrating and integrating the Complex Product Database into the Palantir platform.</p></div><div><span>IRS</span><p>Led a zero-downtime modernization of a legacy, on-premises production stack.</p></div><div><span>Reliability</span><p>Operated and scaled critical search infrastructure during periods of elevated demand.</p></div><div><span>AI, early</span><p>Built an in-platform PDF Q&A tool in 2022, later demonstrated across public-sector organizations.</p></div></div>
+        </div>
+      </section>
+
+      <section id="about" class="about wrap">
+        <p class="eyebrow">05 / About</p>
+        <div class="about-grid"><h2>Software engineer across<br /><em>product, infrastructure, and production engineering.</em></h2><div><p>I’m a software engineer at Palantir focused on database infrastructure. Before that, I worked directly with federal teams to bring consequential software into constrained environments.</p><p>I’m drawn to ambitious teams working on infrastructure, AI products, reliability, and systems where sound engineering earns trust over time.</p><a href="mailto:vivekarora2000@gmail.com" class="button">Start a conversation <span>↗</span></a></div></div>
+        <div class="capabilities"><span>Java</span><span>Go</span><span>Kubernetes</span><span>Elasticsearch</span><span>Cassandra</span><span>Postgres</span><span>LLMs & RAG</span><span>Distributed systems</span></div>
+      </section>
+    </main>
+
+    <footer class="wrap"><a class="wordmark" href="#top">VA<span>.</span></a><p>Austin, Texas</p><div><a href="mailto:vivekarora2000@gmail.com">Email</a><a href="https://www.linkedin.com/in/vivekarora2000" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

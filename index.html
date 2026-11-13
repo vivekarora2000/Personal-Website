@@ -3,142 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Vivek Arora - software engineer building reliable systems for consequential environments." />
+    <meta
+      name="description"
+      content="Vivek Arora is a software engineer in Austin working on database infrastructure and building interactive ways to understand systems."
+    />
     <title>Vivek Arora — Software Engineer</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg?v=3" />
     <link rel="canonical" href="https://aroravivek.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://aroravivek.com/" />
-    <meta property="og:title" content="Vivek Arora — Software Engineer at Palantir" />
-    <meta property="og:description" content="Infrastructure, product, and production engineer building systems that have to work." />
+    <meta property="og:title" content="Vivek Arora — Software Engineer" />
+    <meta property="og:description" content="Database infrastructure, interactive systems, and thoughtful software." />
     <meta property="og:image" content="https://aroravivek.com/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Vivek Arora, Software Engineer at Palantir" />
+    <meta property="og:image:alt" content="Vivek Arora, Software Engineer" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Vivek Arora — Software Engineer at Palantir" />
-    <meta name="twitter:description" content="Infrastructure, product, and production engineer building systems that have to work." />
+    <meta name="twitter:title" content="Vivek Arora — Software Engineer" />
+    <meta name="twitter:description" content="Database infrastructure, interactive systems, and thoughtful software." />
     <meta name="twitter:image" content="https://aroravivek.com/og.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="grain" aria-hidden="true"></div>
-    <header class="nav wrap">
-      <a class="wordmark" href="#top" aria-label="Vivek Arora home">VA<span>.</span></a>
+    <header class="site-header shell">
+      <a class="home-link" href="#top">Vivek Arora</a>
       <nav aria-label="Primary navigation">
-        <a href="#work">Selected work</a>
+        <a href="#projects">Projects</a>
         <a href="#about">About</a>
-        <a href="mailto:vivekarora2000@gmail.com" class="nav-contact">Get in touch <span>↗</span></a>
+        <a href="mailto:vivekarora2000@gmail.com">Email</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero wrap">
-        <p class="eyebrow">Vivek Arora / Software Engineer at Palantir</p>
-        <h1>I build systems that<br /><em>have to work.</em></h1>
-        <div class="hero-bottom">
-          <p class="lede">Infrastructure and product engineer with 4 years of experience shipping software in high-consequence, constrained environments.</p>
-          <div class="hero-links">
-            <a href="#work">Explore selected work <span>↓</span></a>
-            <a href="mailto:vivekarora2000@gmail.com">Email me <span>↗</span></a>
+      <section class="intro shell" aria-labelledby="intro-title">
+        <h1 id="intro-title">Vivek Arora</h1>
+        <p>
+          I’m a software engineer in Austin, working on database infrastructure at Palantir. Previously,
+          I built software with federal teams. Outside work, I’m building interactive ways to understand
+          systems and experiment with AI.
+        </p>
+      </section>
+
+      <section class="projects shell" id="projects" aria-labelledby="projects-title">
+        <div class="section-intro">
+          <h2 id="projects-title">Things I’m building</h2>
+          <p>Working experiments for making complex systems easier to see, question, and understand.</p>
+        </div>
+
+        <article class="project">
+          <figure class="project-preview">
+            <img
+              src="assets/terrain-brief.png"
+              alt="Terrain Brief showing a 3D valley, roads, bridges, a scene outline, and a feature inspector"
+              width="1440"
+              height="900"
+            />
+          </figure>
+          <div class="project-details">
+            <div class="project-heading">
+              <h3>Terrain Brief</h3>
+            </div>
+            <div class="project-copy">
+              <p class="summary">An experiment for describing, exploring, and changing a landscape in 3D.</p>
+              <div class="project-links">
+                <a href="https://terrain-brief.aroravivek.com" target="_blank" rel="noreferrer">Visit site</a>
+                <a href="https://github.com/vivekarora2000/terrain-brief" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure class="project-preview compact-preview">
+            <img
+              src="assets/inside-systems.png"
+              alt="Inside Systems preview with an index diagram and a distributed cluster diagram"
+              width="1734"
+              height="907"
+            />
+          </figure>
+          <div class="project-details">
+            <div class="project-heading">
+              <h3>Inside Systems</h3>
+            </div>
+            <div class="project-copy">
+              <p class="summary">Interactive guides to how databases store, find, and move information.</p>
+              <div class="project-links">
+                <a href="http://inside-systems.aroravivek.com" target="_blank" rel="noreferrer">Visit site</a>
+                <a href="https://github.com/vivekarora2000/inside-systems" target="_blank" rel="noreferrer">Source</a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <figure class="project-preview compact-preview">
+            <img
+              src="assets/cross-examination.png"
+              alt="Cross Examination preview showing a dark interview room, case file, and desk lamp"
+              width="1734"
+              height="907"
+            />
+          </figure>
+          <div class="project-details">
+            <div class="project-heading">
+              <h3>Cross Examination</h3>
+            </div>
+            <div class="project-copy">
+              <p class="summary">A fictional investigation about asking good questions and connecting evidence.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="experience shell" aria-labelledby="experience-title">
+        <div class="section-intro">
+          <h2 id="experience-title">At work</h2>
+          <p>Selected work across database infrastructure, reliability, and public-sector deployment.</p>
+        </div>
+        <div class="experience-grid">
+          <div class="role-history">
+            <h3>Palantir Technologies</h3>
+            <p class="company-dates">July 2022–present</p>
+            <dl>
+              <div>
+                <dt>Software Engineer,<br />Database Infrastructure</dt>
+                <dd>Jan. 2025–present</dd>
+              </div>
+              <div>
+                <dt>Forward Deployed Engineer</dt>
+                <dd>July 2022–Jan. 2025</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="work-stories">
+            <article>
+              <h3>Elasticsearch infrastructure and reliability</h3>
+              <p>
+                On Palantir’s database infrastructure team, I build systems that make Elasticsearch fleets easier to
+                operate and scale. My work includes Kubernetes-native autoscaling across dynamic node sets, capacity
+                controls for Helm deployments, and bounded Top-N observability for slow, hot, or overloaded indices.
+              </p>
+            </article>
+            <article>
+              <h3>Backend systems and auditing</h3>
+              <p>
+                For the IRS, I designed a real-time service that checked user queries against data-access restrictions
+                and preserved an audit trail. I also helped modernize an air-gapped production stack without downtime
+                across its database and platform services.
+              </p>
+            </article>
+            <article>
+              <h3>Reliability and product delivery</h3>
+              <p>
+                At the FDA, I built a traffic-control service to protect shared infrastructure during connection spikes
+                and worked directly with pharmaceutical-science users on the Complex Product Database migration.
+                I received the FDA Information Technology Excellence Award for my work on that migration.
+              </p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="principle wrap" aria-label="Engineering philosophy">
-        <p class="eyebrow">How I work</p>
-        <p class="principle-copy">I like hard systems problems at the boundary of <span>reliability, security,</span> and real-world users. The best work pairs deep technical investigation with the judgment to make a meaningful difference for the people depending on it.</p>
-      </section>
-
-      <section id="work" class="work wrap">
-        <div class="section-heading"><p class="eyebrow">01 / Selected work</p></div>
-
-        <article class="project featured">
-          <div class="project-number">01</div>
-          <div class="project-copy">
-            <p class="project-kicker">Database infrastructure · 2025</p>
-            <h2>Autoscaling Elasticsearch for unpredictable demand.</h2>
-            <p class="project-summary">Built a Kubernetes-native autoscaler that uses Elasticsearch and cluster telemetry to make workload-aware decisions across node sets — reducing costly over-provisioning while eliminating manual capacity operations during load spikes.</p>
-            <ul class="tags"><li>Kubernetes</li><li>Elasticsearch</li><li>Custom CRDs</li><li>Persistent state</li></ul>
-          </div>
-          <aside class="project-outcome"><span>Outcome</span><strong>Dynamic capacity</strong><p>Designed beyond native ES autoscaling for high-consequence production fleets.</p></aside>
-        </article>
-
-        <article class="project">
-          <div class="project-number">02</div>
-          <div class="project-copy">
-            <p class="project-kicker">Capacity efficiency · Database infrastructure</p>
-            <h2>Making dynamic database workloads legible and efficient.</h2>
-            <p class="project-summary">Created a CPU rectifier for Elasticsearch Helm deployments that correctly evaluates dynamic master and data node sets. The design established a pattern later used to accelerate Postgres rectification.</p>
-            <ul class="tags"><li>Helm</li><li>Grafana</li><li>Capacity planning</li></ul>
-          </div>
-          <aside class="project-outcome"><span>Outcome</span><strong>Smarter capacity placement</strong><p>Improved bin packing across dynamic database workloads.</p></aside>
-        </article>
-
-        <article class="project">
-          <div class="project-number">03</div>
-          <div class="project-copy">
-            <p class="project-kicker">Security & auditability · IRS</p>
-            <h2>Auditing sensitive data access in real time.</h2>
-            <p class="project-summary">Designed and shipped a real-time IRS auditing service that compares user-scoped query results with authorized baselines as searches execute, preserving an auditable record of potentially unauthorized taxpayer-data access.</p>
-            <ul class="tags"><li>Event-driven systems</li><li>Data security</li><li>Real-time queries</li></ul>
-          </div>
-          <aside class="project-outcome"><span>Why it mattered</span><strong>Expanded the engagement</strong><p>Turned a hard regulatory requirement into new scope for the partnership.</p></aside>
-        </article>
-
-        <article class="project">
-          <div class="project-number">04</div>
-          <div class="project-copy">
-            <p class="project-kicker">Production reliability · FDA</p>
-            <h2>Building a traffic guardrail for constrained infrastructure.</h2>
-            <p class="project-summary">Proactively built a custom Squid traffic-control service for a constrained FDA deployment. It detects abnormal connection pressure during high-change periods and temporarily sheds nonessential traffic, protecting shared infrastructure and preserving service availability.</p>
-            <ul class="tags"><li>Networking</li><li>Squid</li><li>Resilience engineering</li><li>On-prem</li></ul>
-          </div>
-          <aside class="project-outcome"><span>Outcome</span><strong>Graceful degradation</strong><p>Designed a protection mechanism for infrastructure operating under hard constraints.</p></aside>
-        </article>
-
-        <article class="project">
-          <div class="project-number">05</div>
-          <div class="project-copy">
-            <p class="project-kicker">Observability · Elasticsearch fleet</p>
-            <h2>Useful signals without a cardinality explosion.</h2>
-            <p class="project-summary">Developed a bounded-cardinality Top-N metrics system with exponentially decaying sampling to surface the indices that matter. Extended it from latency into volume, separating slow, hot, and overloaded workloads.</p>
-            <ul class="tags"><li>Java</li><li>Observability</li><li>Distributed systems</li></ul>
-          </div>
-          <aside class="project-outcome"><span>Design constraint</span><strong>Bounded metrics</strong><p>Detailed visibility where it counts, without degrading fleet-wide monitoring.</p></aside>
-        </article>
-
-        <article class="project">
-          <div class="project-number">06</div>
-          <div class="project-copy">
-            <p class="project-kicker">Product delivery · Regulated data platform</p>
-            <h2>Shipping with users, not just for them.</h2>
-            <p class="project-summary">Worked directly with domain-expert users on a regulated data platform, learning their review workflows and iterating in short feedback loops. Turned an initially skeptical user group into active partners by pairing fast execution with a deep understanding of their day-to-day work.</p>
-            <ul class="tags"><li>Customer discovery</li><li>Product delivery</li><li>Regulated workflows</li><li>Data platforms</li></ul>
-          </div>
-          <aside class="project-outcome"><span>What changed</span><strong>Trusted partnership</strong><p>Moved the relationship from a software rollout to collaborative problem-solving.</p></aside>
-        </article>
-      </section>
-
-      <section class="proof wrap">
-        <p class="eyebrow">04 / In the field</p>
-        <div class="proof-grid">
-          <p>At Palantir, I’ve deployed, debugged, and modernized software where failure is not abstract: regulated environments, sensitive data, and demanding production infrastructure.</p>
-          <div class="proof-list"><div><span>FDA · 2023</span><p>Received the FDA Information Technology Excellence Award for collaborative work migrating and integrating the Complex Product Database into the Palantir platform.</p></div><div><span>IRS</span><p>Led a zero-downtime modernization of a legacy, on-premises production stack.</p></div><div><span>Reliability</span><p>Operated and scaled critical search infrastructure during periods of elevated demand.</p></div><div><span>AI, early</span><p>Built an in-platform PDF Q&A tool in 2022, later demonstrated across public-sector organizations.</p></div></div>
+      <section class="about shell" id="about" aria-labelledby="about-title">
+        <div class="section-intro">
+          <h2 id="about-title">A little more</h2>
         </div>
-      </section>
-
-      <section id="about" class="about wrap">
-        <p class="eyebrow">05 / About</p>
-        <div class="about-grid"><h2>Software engineer across<br /><em>product, infrastructure, and production engineering.</em></h2><div><p>I’m a software engineer at Palantir focused on database infrastructure. Before that, I worked directly with federal teams to bring consequential software into constrained environments.</p><p>I’m drawn to ambitious teams working on infrastructure, AI products, reliability, and systems where sound engineering earns trust over time.</p><a href="mailto:vivekarora2000@gmail.com" class="button">Start a conversation <span>↗</span></a></div></div>
-        <div class="capabilities"><span>Java</span><span>Go</span><span>Kubernetes</span><span>Elasticsearch</span><span>Cassandra</span><span>Postgres</span><span>LLMs & RAG</span><span>Distributed systems</span></div>
+        <p>
+          I like a little chaos. Things breaking are interesting especially when I’m not the one who broke them.
+          I enjoy following the clues, figuring out what went wrong, and understanding the system a little better afterward.
+          That curiosity also keeps me building things and experimenting with AI. Outside of work, I like cooking,
+          eating what I cook, and playing pickleball.
+        </p>
       </section>
     </main>
 
-    <footer class="wrap"><a class="wordmark" href="#top">VA<span>.</span></a><p>Austin, Texas</p><div><a href="mailto:vivekarora2000@gmail.com">Email</a><a href="https://www.linkedin.com/in/vivekarora2000" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></footer>
-    <script src="script.js"></script>
+    <footer class="site-footer shell">
+      <p>Vivek Arora · Austin, Texas</p>
+      <nav aria-label="Contact links">
+        <a href="mailto:vivekarora2000@gmail.com">Email</a>
+        <a href="https://github.com/vivekarora2000" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/vivekarora2000" target="_blank" rel="noreferrer">LinkedIn</a>
+      </nav>
+    </footer>
   </body>
 </html>
